@@ -1,0 +1,19 @@
+<header>
+    <img src="./assets/fylelogo.svg" alt="https://github.com" class="logo"> 
+    <input type="text" placeholder="Search Github User.." class="search" (keyup)="getuser($event)">
+</header>
+
+<app-userdetail [name]="userr"></app-userdetail>
+
+<app-userrepo [name]="userr" [pagen]="pageno"></app-userrepo>
+
+<section class="pagination">
+    <div class="page move" (click)=prev()>&lt;&lt;</div>
+    <div class="page ">{{pageno}}</div>
+    <div class="page move" (click)="next()">&gt;&gt;</div>
+</section>
+
+<footer>
+    &copy; Designed & Developed By Rahul Verman
+    <div>INDIA | 2022</div>
+</footer>
