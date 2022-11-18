@@ -29,7 +29,7 @@ export class UserrepoComponent implements OnChanges {
     this.stater = "loading";
     this.start=0;
     this.end=this.start+5;
-    this.http.get('https://api.github.com/users/'+this.name+'/repos?page='+this.pagen+'&per_page=8')
+    this.http.get('https://api.github.com/users/'+this.name+'/repos?page='+this.pagen+'&per_page=6')
     .subscribe(Response => {
       console.log(Response)
       this.repo=Response;
