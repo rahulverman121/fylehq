@@ -1,3 +1,4 @@
+![ScreenShot](https://github.com/rahulverman121/fylehq/blob/main/src/assets/scrfyle.png)
 # Fylegi
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
